@@ -24,7 +24,7 @@ function validateZip() {
 
 function validateEmail() {
     const email = document.getElementById('email');
-    const re = //;
+    const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z0-9]{2,5})$/;
 
     if(!re.test(email.value)){
         email.classList.add('is-invalid');
