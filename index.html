@@ -14,6 +14,44 @@
 </head>
 
 <body>
+    <div class="contanier">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <h1>User Form</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <div class="invalid-feedback">
+                            Name must be between 2 and 10 characters
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Zipcode</label>
+                        <input type="text" class="form-control" id="zip" placeholder="Zipcode">
+                        <div class="invalid-feedback">
+                            Enter a valid Zipcode
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Email">
+                        <div class="invalid-feedback">
+                            Enter a valid Email
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                        <div class="invalid-feedback">
+                            Enter a valid Phone Number
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
